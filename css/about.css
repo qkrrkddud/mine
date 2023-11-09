@@ -1,0 +1,112 @@
+/*banner*/
+#banner{
+  min-width: 1300px;
+  height: 320px;
+  /*그라디언트를 반투명한 검은색으로 설정하여
+  이미지를 어둡게 표현*/
+  background:linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+   url(../img/banner.jpg) center/cover;
+  padding-top: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+}
+#banner > h1{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+#banner > p {
+  line-height: 1.4;
+  color: #cecece;
+}
+
+/*number*/
+#number{
+  min-width: 1300px;
+  background-color: #10c9c3;
+}
+#number > .container{
+  padding: 100px 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+#number .box{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid white;
+}
+#number .box:first-child{
+  border-left: 2px solid white;
+}
+#number .box p{
+  margin-left: 20px;
+  font-size: 12px;
+  transform: translateY(2px);
+}
+#number .box p b{
+  font-size: 16px;
+}
+#about{
+  min-width: 1300px;
+  background-color: #f5f5f5;
+}
+#about > .container{
+  display: flex;
+}
+#about .largeImage{
+  width: 50%;
+  height: 520px;
+  background: url(../img/about_me.jpg) center/cover; 
+}
+#about .txt{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 100px;
+}
+#about .txt h1{
+  font-size: 28px;
+  color: #191919;
+}
+#about .txt p{
+  font-size: 14px;
+  color: #666;
+  margin: 20px 0;
+  line-height: 1.4em;
+}
+#about .txt img{margin-top: 40px;}
+
+#project{
+  min-width: 1300px;
+  text-align: center;
+  padding: 80px 0;
+}
+
+#project h1{
+  font-size: 28px;
+  color: #191919;
+}
+#project p {
+  color: #666;
+  margin: 20px 0;
+}
+
+#project button{
+  border: 0;
+  outline: 0;
+  background-color: #10c9c3;
+  font-size: 12px;
+  color: #fff;
+  width: 170px;
+  height: 50px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+#project button:hover{
+  cursor: pointer;
+  background-color: #0db1ab;
+}

@@ -1,0 +1,48 @@
+/*배너*/
+#banner{
+  min-width: 1300px;
+  height: 320px;
+  background-color: #f6f6f6;
+  padding-top: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #191919;
+}
+#banner > h1{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+#banner > p {
+  line-height: 1.4;
+  color: #666;
+}
+/*콘텐츠영역*/
+#contents > .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+#contents .box{
+  width: 325px;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+}
+.box > .eye{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /*아이콘*/
+  /*../ = 상위폴더로 이동*/
+  background:url(../img/eye.png) no-repeat center rgba(16,201,195,0.6);
+  opacity: 0;
+  transform: scale(5);
+  transition: 0.5s;
+  }
+/*hover효과*/
+.box:hover > .eye {
+  opacity: 1;
+  transform: scale(1);
+  cursor: pointer;
+}

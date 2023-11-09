@@ -1,0 +1,26 @@
+footer{
+  min-width: 1100px;
+  background-color: #141414;
+  color: #bcbcbc;
+}
+footer>.container{
+  width: 1100px;
+  height: 280px;
+  padding-top: 80px;
+  box-sizing: border-box;
+  margin: auto;
+  line-height: 1.8em;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+footer h2{
+  margin-bottom: 20px;
+  color: #fff;
+}
+footer .links{
+  display: flex;
+}
+ul{
+  margin-left: 7 0px;
+}
